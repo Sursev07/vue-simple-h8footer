@@ -1,12 +1,29 @@
 {
   "name": "v-h8footer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "sursev07",
+    "email": "simangunsong.seven@gmail.com"
+  },
+  "repository": "https://github.com/Sursev07/vue-simple-h8footer",
+  "bugs": "https://github.com/Sursev07/vue-simple-h8footer/issues",
+  "keywords": [
+    "keywords",
+    "go",
+    "here"
+  ],
+  "license": "Hacktiv8",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name v-h8footer ./src/install.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/v-h8footer.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"

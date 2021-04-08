@@ -1,24 +1,19 @@
 # v-h8footer
+Hacktiv8 footer with really simple setup
 
-## Project setup
+## Installation
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install v-h8footer
 ```
 
-### Compiles and minifies for production
+### Usage
 ```
-npm run build
-```
+import H8Footer from 'v-h8footer'
 
-### Lints and fixes files
-```
-npm run lint
-```
+## To install it globally.
+Vue.use(H8Footer)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## If not globally, you can also import the individual components locally.
+import 'H8Footer' from 'vue-simple-hello-world'
+
+```
