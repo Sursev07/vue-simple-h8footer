@@ -20,10 +20,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library": "vue-cli-service build --target lib --name v-h8footer ./src/install.js",
+    "build-library": "vue-cli-service build --target lib --name vue-h8footer ./src/install.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/v-h8footer.common.js",
+  "main": "dist/vue-h8footer.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"

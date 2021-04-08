@@ -1,16 +1,16 @@
-import H8Footer from './H8Footer.vue'
+import HacktivFooter from './components/HacktivFooter.vue'
 
-const H8FooterSimple = {
+const HacktivFooterSimple = {
   install (Vue, options) {
     // Let's register our component globally
     // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component('H8Footer', H8Footer)
+    Vue.component('H8Footer', HacktivFooter)
   }
 }
 
 // Automatic installation if Vue has been added to the global scope.
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(H8FooterSimple)
+  window.Vue.use(HacktivFooterSimple)
 }
 
-export default H8FooterSimple
+export default HacktivFooterSimple

@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'H8Footer'
+  name: 'HacktivFooter'
 }
 </script>
 
