@@ -14,6 +14,6 @@ import H8Footer from 'v-h8footer'
 Vue.use(H8Footer)
 
 ## If not globally, you can also import the individual components locally.
-import 'H8Footer' from 'v-h8footer'
+import H8Footer from 'v-h8footer'
 
 ```
